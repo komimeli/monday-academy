@@ -1,0 +1,157 @@
+body{
+    background-color: r(201, 200, 200);
+}
+.navbar{
+    padding: 30px 0px;
+}
+  .navbar-item{
+    margin-left: 30px !important;
+  }
+  .center{
+    text-align: center;
+  }
+  .global-card {
+    height: 100%;
+    padding: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px rgba(229, 233, 246, 0.7);
+    transition-duration: 0.5s;
+  }
+
+
+  .animatsiya:hover{
+    animation-duration: 0.5s;
+    animation-name: animat;
+
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+    background-color: rgba(45, 168, 18, 0.842);
+  }
+
+@keyframes animat {
+  0%{
+    color: black;
+    margin-top: 0px;
+    background-color: rgb(201, 200, 200);
+  }
+  100%{
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+   
+  }
+}
+.our{
+  font-size: 25px;
+
+}
+.top{
+  margin-top: 100px;
+}
+.vast{
+  font-size: 20px;
+}
+.more:hover{
+  color: azure;
+  background-color:  rgb(101, 208, 77);
+}
+.doyou{
+ 
+  padding: 40px;
+  border-radius: 35px;
+  box-shadow: 0px 0px 40px 0px;
+  margin: 20px 250px ;
+  background-color: rgb(228, 233, 233);
+  font-size: 40px;
+  text-align: center;
+}
+.les{
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 25px;
+
+}
+.yes{
+  margin-top: 200px;
+}
+.pastga{
+  margin-top: 60px;
+}
+.ddd{
+  font-size: 18px;
+}
+.salom{
+  text-align: center;
+}
+.rang{
+  color: azure;
+}
+.ffrr{
+  width: 100%;
+  height: 290px;
+  border-radius: 25px;
+  background-color: rgb(59, 197, 59);
+}
+.bat{
+ 
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgb(84, 202, 84);
+  color: rgb(246, 246, 246);
+}
+
+.bat:hover{
+  
+  color: black;
+  background-color: aliceblue;
+}
+
+.dass{
+  box-shadow: 0px 0px 15px 1px;
+  border-radius: 20px;
+  height: 500px;
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+}
+.cup{
+  border-radius: 20px 20px 0px 0px;
+}
+.action{
+  color:rgb(84, 202, 84) ;
+}
+ .action:hover{
+  color: black;
+ } 
+ .hello{
+  margin-top:100px;
+  text-align: center;
+ }
+
+.book{
+  position: relative;
+  margin: 40px 20px 0px 20px;
+  height: 350px;
+  width: 100%;
+ background-color:rgb(63, 157, 63);
+}
+.pein{
+  position: absolute;
+ color: white;
+ top: 40px;
+ left: 30px;
+}
+
+.about{
+  color: white;
+  font-size: 15px;
+}
+.about:hover{
+  color: rgba(231, 228, 228, 0.534);
+}
+
+.animatsiya:hover .line{
+ fill: rgba(211, 203, 203, 0.704);
+}
+.animatsiya:hover .svg-rasim{
+  fill: rgba(240, 248, 255, 0.886);
+}
